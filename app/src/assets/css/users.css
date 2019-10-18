@@ -1,0 +1,74 @@
+.userSection {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.secHeader {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secHeader h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.userSection table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userSection table td {
+    padding: 20px 20px;
+}
+
+.userSection table thead td {
+    font-weight: 700;
+}
+
+.userSection table thead tr {
+    background: #cecece;
+}
+
+.userSection table tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+.addUser {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.addUser input {
+    width: calc(100% / 3 - 40px);
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid #cecece;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.addUser button {
+    width: calc(100% / 3 - 40px);
+    background: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+.secHeader button {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding: 5px 20px;
+    background: #f00;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}

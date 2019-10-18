@@ -1,0 +1,38 @@
+.verticalCenter {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.homeHeading h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+.homeHeading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-login {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-login a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #0045ab;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  box-shadow: 5px 6px 10px 0 rgba(0, 0, 0, 0.2);
+}

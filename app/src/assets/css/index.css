@@ -1,0 +1,19 @@
+body {
+   margin: 0;
+   font-family: 'Montserrat';
+}
+
+.wrapper {
+   max-width: 1280px;
+   margin: auto;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.fullWidthSection {
+   width: 100%;
+   padding: 0 20px;
+}
+

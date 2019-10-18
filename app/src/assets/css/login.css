@@ -1,0 +1,54 @@
+.loginFormWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginFormWrapper form {
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.loginFormWrapper h2 {
+    font-size: 36px;
+    margin: 0 0 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #0045ab;
+}
+
+.loginFormWrapper form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.loginFormWrapper form input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.loginFormWrapper form button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #0045ab;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
